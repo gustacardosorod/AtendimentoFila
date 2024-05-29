@@ -30,6 +30,8 @@ public class Atendimento {
                     if (fila.tamanho() > 0) {
                         Usuario proximo = (Usuario) fila.remove();
                         System.out.println("Chamando o próximo usuário: " + proximo);
+                        System.out.println("Próximos usuários na fila:");
+                        fila.exibe();
                     } else {
                         System.out.println("Nenhum usuário na fila.");
                     }
