@@ -1,3 +1,4 @@
+package Java;
 class Node {
     Object data;
     Node next;

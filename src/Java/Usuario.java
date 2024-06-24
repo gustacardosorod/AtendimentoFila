@@ -1,3 +1,4 @@
+package Java;
 public class Usuario {
     private static int contador = 0;
     private int numero;
